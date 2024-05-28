@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.title {
+  @apply text-center italic font-bold text-4xl 
+}
+
+
+.long-line {
+  @apply border border-dashed border-orange-500 w-48 mx-auto mt-2
+}
+
+.short-line {
+  @apply border border-dashed border-orange-500 w-32 mx-auto mt-2
+}
+
+
+
+.button {
+  @apply btn bg-orange-600 btn-active
+}
