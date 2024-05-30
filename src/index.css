@@ -16,7 +16,9 @@
   @apply border border-dashed border-orange-500 w-32 mx-auto mt-2
 }
 
-
+.shop-now-line {
+    @apply border  border-orange-500 w-20 mx-auto mt-2
+  }
 
 .button {
   @apply btn bg-orange-600 btn-active
